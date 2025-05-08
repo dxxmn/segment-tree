@@ -1,0 +1,25 @@
+.link-highlighted {
+    stroke: #ffa2a2 !important;
+    stroke-width: 2px !important;
+}
+  
+.link-default {
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.node-highlighted {
+    animation: pulse 1.5s infinite
+}
+  
+@keyframes pulse {
+    0% {
+        r: 22;
+    }
+    50% {
+        r: 24;
+    }
+    100% {
+        r: 22;
+    }
+}
